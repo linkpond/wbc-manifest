@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: wbc-app-container
-        image: linkpond0629/wbc:fb87b8fd94635763c8bf3ac7264b656f10fa9a34
+        image: linkpond0629/wbc:8d51340853bf637460082080a85410f540b87cc0
         ports:
           - protocol: TCP
             containerPort: 8080
