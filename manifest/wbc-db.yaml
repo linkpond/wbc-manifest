@@ -9,11 +9,11 @@ spec:
   accessModes:
   - ReadWriteOnce
   capacity:
-    storage: 500Mi
+    storage: 50Mi
   persistentVolumeReclaimPolicy: Retain
   storageClassName: db-storage
   hostPath:
-    path: /home/ubuntu/wbc/data
+    path: /home/ubuntu/advanced/cicd/argocd/data
 
 ---
 
