@@ -19,7 +19,7 @@ kind: Deployment
 metadata:
   name: wbc-app-deployment
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app.kubernetes.io/name: wbc-app
